@@ -1,12 +1,22 @@
-FROM node:16
+
+
+
+
+
+
+
+
+
+
+
+FROM node:14
 
 WORKDIR /app
 
+# Copy the package.json file (and other necessary files)
 COPY . .
 
 RUN npm install
 
-EXPOSE 8080
-
-CMD ["node", "app.js"]
+# Other build steps...
 
