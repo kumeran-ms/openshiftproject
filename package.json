@@ -1,20 +1,25 @@
 {
   "name": "nodejs-hello",
   "version": "1.0.0",
-  "description": "",
-  "main": "node.js",
+  "description": "A simple Node.js application",
+  "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kumeran-ms/openshiftproject.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["node", "openshift"],
+  "author": "M S Kumeran",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/kumeran-ms/openshiftproject/issues"
   },
-  "homepage": "https://github.com/kumeran-ms/openshiftproject#readme"
+  "homepage": "https://github.com/kumeran-ms/openshiftproject#readme",
+  "dependencies": {
+    "express": "^4.17.1" 
+  }
 }
+
