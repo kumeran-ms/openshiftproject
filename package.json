@@ -11,7 +11,10 @@
     "type": "git",
     "url": "git+https://github.com/kumeran-ms/openshiftproject.git"
   },
-  "keywords": ["node", "openshift"],
+  "keywords": [
+    "node",
+    "openshift"
+  ],
   "author": "M S Kumeran",
   "license": "ISC",
   "bugs": {
@@ -19,7 +22,11 @@
   },
   "homepage": "https://github.com/kumeran-ms/openshiftproject#readme",
   "dependencies": {
-    "express": "^4.17.1" 
-  }
+    "express": "^4.21.2"
+
+"dependencies": {
+  "express": "^4.17.1"
 }
 
+  }
+}
